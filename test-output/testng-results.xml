@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51387" started-at="2021-07-03T18:05:19 IST" finished-at="2021-07-03T18:06:10 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51387" started-at="2021-07-03T18:05:19 IST" finished-at="2021-07-03T18:06:10 IST">
+      <class name="com.justdial.testcases.HomepageTestCases">
+        <test-method status="PASS" signature="Browser()[pri:0, instance:com.justdial.testcases.HomepageTestCases@4bb4de6a]" name="Browser" is-config="true" duration-ms="11144" started-at="2021-07-03T18:05:19 IST" finished-at="2021-07-03T18:05:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method status="PASS" signature="websiteTest()[pri:1, instance:com.justdial.testcases.HomepageTestCases@4bb4de6a]" name="websiteTest" duration-ms="608" started-at="2021-07-03T18:05:30 IST" finished-at="2021-07-03T18:05:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- websiteTest -->
+        <test-method status="PASS" signature="elementsTest()[pri:2, instance:com.justdial.testcases.HomepageTestCases@4bb4de6a]" name="elementsTest" duration-ms="197" started-at="2021-07-03T18:05:31 IST" finished-at="2021-07-03T18:05:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsTest -->
+        <test-method status="PASS" signature="loginPageTest()[pri:3, instance:com.justdial.testcases.HomepageTestCases@4bb4de6a]" name="loginPageTest" duration-ms="866" started-at="2021-07-03T18:05:31 IST" finished-at="2021-07-03T18:05:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTest -->
+        <test-method status="PASS" signature="locationTest()[pri:4, instance:com.justdial.testcases.HomepageTestCases@4bb4de6a]" name="locationTest" duration-ms="4153" started-at="2021-07-03T18:05:32 IST" finished-at="2021-07-03T18:05:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationTest -->
+        <test-method status="PASS" signature="searchingTest()[pri:5, instance:com.justdial.testcases.HomepageTestCases@4bb4de6a]" name="searchingTest" duration-ms="5491" started-at="2021-07-03T18:05:36 IST" depends-on-methods="com.justdial.testcases.HomepageTestCases.locationTest" finished-at="2021-07-03T18:05:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchingTest -->
+        <test-method status="PASS" signature="resultPageTest()[pri:6, instance:com.justdial.testcases.HomepageTestCases@4bb4de6a]" name="resultPageTest" duration-ms="816" started-at="2021-07-03T18:05:41 IST" depends-on-methods="com.justdial.testcases.HomepageTestCases.searchingTest" finished-at="2021-07-03T18:05:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resultPageTest -->
+        <test-method status="PASS" signature="bestdealsTest()[pri:7, instance:com.justdial.testcases.HomepageTestCases@4bb4de6a]" name="bestdealsTest" duration-ms="1423" started-at="2021-07-03T18:05:42 IST" depends-on-methods="com.justdial.testcases.HomepageTestCases.resultPageTest" finished-at="2021-07-03T18:05:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bestdealsTest -->
+        <test-method status="PASS" signature="ratingCheck()[pri:8, instance:com.justdial.testcases.HomepageTestCases@4bb4de6a]" name="ratingCheck" duration-ms="202" started-at="2021-07-03T18:05:44 IST" depends-on-methods="com.justdial.testcases.HomepageTestCases.bestdealsTest" finished-at="2021-07-03T18:05:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ratingCheck -->
+        <test-method status="PASS" signature="printData()[pri:9, instance:com.justdial.testcases.HomepageTestCases@4bb4de6a]" name="printData" duration-ms="11671" started-at="2021-07-03T18:05:44 IST" depends-on-methods="com.justdial.testcases.HomepageTestCases.ratingCheck" finished-at="2021-07-03T18:05:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printData -->
+        <test-method status="PASS" signature="dataFromMenubar()[pri:10, instance:com.justdial.testcases.HomepageTestCases@4bb4de6a]" name="dataFromMenubar" duration-ms="13736" started-at="2021-07-03T18:05:55 IST" finished-at="2021-07-03T18:06:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataFromMenubar -->
+        <test-method status="PASS" signature="terminate()[pri:0, instance:com.justdial.testcases.HomepageTestCases@4bb4de6a]" name="terminate" is-config="true" duration-ms="970" started-at="2021-07-03T18:06:09 IST" finished-at="2021-07-03T18:06:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminate -->
+      </class> <!-- com.justdial.testcases.HomepageTestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
